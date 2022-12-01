@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Description" content="Final project">
+        <meta name="vewport" content="width=device-width, initial-scale=(1.0)">
+        <style>
+            *{
+                margin: 15PX;
+            }
+            .slide{
+               background: linear-gradient(to right, rgba(233, 226, 226,.9),rgb(0,0,0,0.1)), url(./slide-2.jpg);
+                border: 1px solid;
+                height: 500px;
+                width: auto;
+                background-size: cover;
+               background-position: top;
+               background-attachment: fixed;
+            }
+            .box-container{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                background-color: white;
+                font-family: sans-serif;
+            }
+            .box1{
+                background-color: orangered;
+                
+            }
+            .box2{
+                display: flex;
+                justify-content: right;
+                overflow:visible;
+            }
+            .box3{
+                background-color: orangered;
+                overflow: inherit;
+            }
+            .content{
+               font-size: 28px;
+               color: white;
+               font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="slide">
+                <div class="box-container">
+                    <div class="box1"><img src="./logo-white.png" height="30px" width="80px"></div>
+                    <div class="box2">
+                        <div>HOME</div>
+                        <div>PROJECT</div>
+                        <div>ABOUT</div>
+                        <div>SERVICES</div>
+                        <div>BLOG</div>
+                        <select>
+                         <option>PAGES</option>
+                         <option>404 ERROR PAGES</option>
+                         <option>PROTECTED PAGES</option>
+                         <option>STYLE GUIDE</option>
+                         <option>LICENCING</option>
+                        </select>
+                </div>
+                <div class="box3"><p>GET FREE QUOTE</p></div>
+            </div>
+            <div class="content"><h1>YOU DREAM. WE CREATE.</h1></div>
+            <div><p>We turn your ideas to reality, we don't stop until you're satisfied.</p></div>
+        </header>
+    </body>
+    </html>
